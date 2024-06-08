@@ -1,0 +1,48 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.exe assembly's progress.
+The file is located at D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service already exists
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.exe assembly's progress.
+The file is located at D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.exe assembly's progress.
+The file is located at D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service already exists
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.exe assembly's progress.
+The file is located at D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphone.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphon4.exe assembly's progress.
+The file is located at D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphon4.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphon4.exe assembly's progress.
+The file is located at D:\public_of_common_space\Visual_studio\Yazdan-art\House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2\bin\Release\net8.0-windows\Service_homeiphon4.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.

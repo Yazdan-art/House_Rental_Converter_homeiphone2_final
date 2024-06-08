@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "House_Rental_Converter_homeiphone2", "House_Rental_Converter_homeiphone2\House_Rental_Converter_homeiphone2.csproj", "{7800474E-9F12-4385-9326-FF446BC78E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service_homeiphon4", "Service_homeiphon4\Service_homeiphon4.csproj", "{13029B00-E58A-4BF6-B0D4-AEEC0B83CC8D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{DE4F0885-57AA-4CB5-A496-7591C8FAF963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7800474E-9F12-4385-9326-FF446BC78E21}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{7800474E-9F12-4385-9326-FF446BC78E21}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{7800474E-9F12-4385-9326-FF446BC78E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7800474E-9F12-4385-9326-FF446BC78E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13029B00-E58A-4BF6-B0D4-AEEC0B83CC8D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{13029B00-E58A-4BF6-B0D4-AEEC0B83CC8D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{13029B00-E58A-4BF6-B0D4-AEEC0B83CC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13029B00-E58A-4BF6-B0D4-AEEC0B83CC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4F0885-57AA-4CB5-A496-7591C8FAF963}.Debug|Any CPU.ActiveCfg = Debug
+		{DE4F0885-57AA-4CB5-A496-7591C8FAF963}.Release|Any CPU.ActiveCfg = Release
+		{DE4F0885-57AA-4CB5-A496-7591C8FAF963}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FED3A61-25D8-436E-B7B9-5476ECAAF73F}
+	EndGlobalSection
+EndGlobal
