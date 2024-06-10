@@ -1,0 +1,27 @@
+برای ساخت کلید ریجستری :
+ابتدا یک نمونه از کلاس ریجستری میسازیم
+RegistryKey mainKey = Registry.LocalMachine.OpenSubKey("SOFTWARE", true);
+این نمونه آدرس کلید های نرم افزاری اشاره دارد 
+حالا با کمک این نمونه در مسیر فوق اقدام به ساخت کلیدی ترجیحا به نام خود برنامه میکنیم 
+RegistryKey appKey = mainKey.OpenSubKey("House_Rental_Converter3", true);
+در ابتدای برنامه ,قسمت دوم شرط  اجرا میشود چون ما نه کلیدی داریم ونه مقداری درون آن 
+if ().....
+else(){
+  appKey = mainKey.CreateSubKey("House_Rental_Converter3");
+                appKey.SetValue("Start_Trial", DateTime.Now);
+}
+و در دفعات بعدی چون کلید برنامه و 'زیرکلید' ساخته شده قسمت اول شرط اجرا میشود
+و همیشه تایم نصب برنامه پرسیده میشود که به عنوان  ولیو در زیرکلید ذخیره شده و از آن به دو منظور استفاده میگردد :
+یک) زمان باقیمانده 
+دو) دادن خطا و رفتن به فروشگاه بعد از انقضای زمان فوق
+
+تمام این فرایند را می‌توانید در این مسیر بیابید 
+checkRegistrationForm > button1_Click>
+نکته : به علت استفاده از پروژه دوم( سرویس وندوزی) به عنوان رفرنس در پروژه اول   و تعریف مسیر و تفاوت در دایرکتوری کامپیوتر من با کامپیوتر شما احتمالا نیاز باشد قسمتهایی از پروژه دوباره نویسی شود و امکان ران  به صورت یکجا نباشد
+ ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ  
+
+ if you have the "manifest signing error ", do this steps:
+ Right-click on your project in Visual Studio and select Properties.
+From the left side, click on Signing.
+Finally, uncheck the "Sign the ClickOnce manifests" option.
+ ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ  
